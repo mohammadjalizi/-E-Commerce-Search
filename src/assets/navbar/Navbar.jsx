@@ -1,23 +1,21 @@
-import React from 'react'
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 import "./Nav.css";
+
 const Navbar = () => {
   return (
-    <div className='  container   mt-4    flex justify-between  '>
- <div>
-
- <input
-          className="  p-2 border  rounded-lg border-green-400    "
+    <nav>
+      <div className="nav-container">
+        <input
+          className="search-input"
           type="text"
-  
-
+         
           placeholder="Enter your search shoes."
         />
- </div>
- <div className=" flex">
+      </div>
+      <div className="profile-container flex">
         <a href="#">
-          <FiHeart className="  nav-icons" />
+          <FiHeart className="nav-icons" />
         </a>
         <a href="">
           <AiOutlineShoppingCart className="nav-icons" />
@@ -26,8 +24,8 @@ const Navbar = () => {
           <AiOutlineUserAdd className="nav-icons" />
         </a>
       </div>
-    </div>
-  )
-}
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
