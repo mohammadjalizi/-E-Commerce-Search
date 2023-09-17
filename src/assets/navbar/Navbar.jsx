@@ -13,7 +13,7 @@ const Navbar = () => {
           placeholder="Enter your search shoes."
         />
       </div>
-      <div className="profile-container flex">
+      <div className="profile-container flex   ">
         <a href="#">
           <FiHeart className="nav-icons" />
         </a>
