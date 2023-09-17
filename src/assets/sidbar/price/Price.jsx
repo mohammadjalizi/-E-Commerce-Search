@@ -14,27 +14,27 @@ export const Price = () => {
 
 <label className="sidebar-label-container">
           <input  type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span className="checkmark"></span>$0 - 50
         </label>
   
         <label className="sidebar-label-container">
           <input  type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span className="checkmark"></span>$50 - $100
         </label>
   
         <label className="sidebar-label-container">
           <input  type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span className="checkmark"></span>$50 - $100
         </label>
   
         <label className="sidebar-label-container">
           <input  type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span className="checkmark"></span>$50 - $100
         </label>
   
         <label className="sidebar-label-container">
           <input  type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
+          <span className="checkmark"></span>A$50 - $100
         </label>
   
 </div>
