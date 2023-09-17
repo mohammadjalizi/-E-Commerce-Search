@@ -1,5 +1,7 @@
 import React from 'react'
 import './Sidbar.css'
+import Category from './Categoryy/Category'
+
 const Sidbar = () => {
   return (
     <div>
@@ -8,9 +10,12 @@ const Sidbar = () => {
         <div className="logo-container">
           <h1>🛒</h1>
         </div>
-<h1>Category</h1>
+<div>
+
+<Category/>
   <h1> Price</h1>
        <h2>Colors</h2>
+</div>
       </section>
     </div>
   )
