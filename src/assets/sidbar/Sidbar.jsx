@@ -2,6 +2,7 @@ import React from 'react'
 import './Sidbar.css'
 import Category from './Categoryy/Category'
 import { Price } from './price/Price'
+import Color from './colors/Color'
 
 const Sidbar = () => {
   return (
@@ -15,7 +16,7 @@ const Sidbar = () => {
 
 <Category/>
 <Price/>
-       <h2>Colors</h2>
+   <Color/>
 </div>
       </section>
     </div>
